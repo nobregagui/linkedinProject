@@ -1,0 +1,40 @@
+# Ignore node_modules
+node_modules/
+
+node_modules/@next/swc-linux-x64-musl/next-swc.linux-x64-musl.node
+
+node_modules/@next/swc-linux-x64-gnu/next-swc.linux-x64-gnu.node
+
+# Ignore arquivos de build
+build/
+dist/
+out/
+*.exe
+*.dll
+*.jar
+
+# Ignore arquivos de configuração locais
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Ignore arquivos de cache e temporários
+*.log
+*.tmp
+.cache/
+
+# Ignore arquivos de senha e credenciais
+.env
+.env.local
+secrets.yml
+
+# Ignore arquivos de backup
+*~
+*.bak
+
+# Ignore arquivos rastreados pelo Git LFS
+*.zip
+*.tar.gz
+*.tgz
+*.rar

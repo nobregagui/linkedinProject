@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_footer_menu_contacts",
+  "info": {
+    "displayName": "menuContacts"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    }
+  }
+}

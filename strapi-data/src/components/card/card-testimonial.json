@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_card_card_testimonials",
+  "info": {
+    "displayName": "cardTestimonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageCard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

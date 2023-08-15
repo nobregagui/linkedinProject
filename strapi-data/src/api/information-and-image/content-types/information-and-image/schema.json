@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_and_images",
+  "info": {
+    "singularName": "information-and-image",
+    "pluralName": "information-and-images",
+    "displayName": "informationAndImage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttonInformation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button-values.button-component"
+    },
+    "imageInformation": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "iconTop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "informationImage": {
+      "displayName": "informationInImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "information-container-image.information-in-image"
+    },
+    "card": {
+      "displayName": "cardTestimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card-testimonial"
+    },
+    "imagesCard": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageAvaliation": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "menuSections": {
+      "displayName": "menuSections",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-footer.menu-sections"
+    },
+    "menuContacts": {
+      "displayName": "menuContacts",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-footer.menu-contacts"
+    },
+    "titleFooterSection": {
+      "type": "string"
+    },
+    "titleFooterContact": {
+      "type": "string"
+    }
+  }
+}

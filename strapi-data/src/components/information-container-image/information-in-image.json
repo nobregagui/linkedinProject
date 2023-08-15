@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_information_container_image_information_in_images",
+  "info": {
+    "displayName": "informationInImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconInformation": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
